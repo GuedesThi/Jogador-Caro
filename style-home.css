@@ -1,0 +1,154 @@
+#cabecalho {
+    background-image: url("Imagens-Home/carlos-felipe-que-deu-certo.jpg");
+    background-size:cover; /* faz com que a imagem cubra todo o elemento (no caso a div) preservando o tamanho do elemento*/
+    background-repeat: no-repeat; /* faz com que caso a imagem seja menor que o elemento, ela não se repita até completar esse tamanho. Mesmo que o cover anterior faça com que isso não aconteça, eu deixo o no-repeat por preucaução */
+    height: 250px; /* altura da div */
+}
+
+.hamburguer {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    width: 32px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.linha {
+    width: 100%;
+    height: 4px;
+    background-color:#02D303;;
+    margin-bottom: 5.5px;
+    border-radius: 10px;
+}
+
+.titulo-site {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 80px;
+}
+
+.subtitulo-site {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.link-minha-conta {
+    color: #02D303;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+}
+
+.link-configuracoes {
+    color: #02D303;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+}
+
+#top10 {
+    background: linear-gradient(to right, black, 80%, purple);
+    height: 400px;
+}
+
+.titulo-do-meio {
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 32px;
+    background: linear-gradient(to right, rgba(217, 217, 217, 1), rgba(217, 217, 217, 1));
+    -webkit-background-clip: text; /* Essa propriedade define a área onde o gradiente será aplicado. O valor text especifica que o gradiente será aplicado apenas ao texto do elemento.*/
+    background-clip: text; /*É uma propriedade similar a -webkit-background-clip, mas é a forma padrão de definir a área onde o gradiente será aplicado. Nesse caso, também definimos como text para aplicar o gradiente apenas ao texto.*/
+    -webkit-text-fill-color: transparent; /*Essa propriedade define a cor do texto. No caso do valor transparent, o texto será torna transparente, permitindo que o gradiente aplicado anteriormente seja visível no lugar do texto.*/
+    color: transparent; /*É a propriedade padrão que define a cor do texto. Definir color como transparent tem o mesmo efeito de webkit-text-fill-color: transparent, tornando o texto transparente para exibir o gradiente.*/
+}
+
+.ded{
+    padding-left: 30px;
+}
+
+#imagem-grupo-laranja-1{
+    border-radius: 50px;
+    height: 200px;
+}
+
+.titulo-rpg-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 560px;
+    left: 140px;
+    font-weight: 500;
+}
+
+#imagem-cyberpunk-1{
+    position: absolute;
+    left: 400px;
+    top: 342px;
+    border-radius: 50px;
+    width: 297.219px;
+    height: 200px;
+}
+
+.titulo-cyberpunk-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 560px;
+    left: 465px;
+    font-weight: 500;
+}
+
+#imagem-call-1{
+    position: absolute;
+    left: 763px;
+    top: 342px;
+    border-radius: 50px;
+    width: 297.219px;
+    height: 200px;
+}
+
+.titulo-call-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 560px;
+    left: 835px;
+    font-weight: 500;
+}
+
+#imagem-thrones-1{
+    position: absolute;
+    left: 1118px;
+    top: 342px;
+    border-radius: 50px;
+    width: 297.219px;
+    height: 200px;
+}
+
+.titulo-thrones-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 560px;
+    left: 1175px;
+    font-weight: 500;
+}
