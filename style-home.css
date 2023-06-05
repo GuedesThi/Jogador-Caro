@@ -62,7 +62,7 @@
 
 #top10 {
     background: linear-gradient(to right, black, 80%, purple);
-    height: 400px;
+    height: 700px;
 }
 
 .titulo-do-meio {
@@ -78,12 +78,13 @@
 }
 
 .ded{
-    padding-left: 30px;
+    padding-left: 30px; /*distância da parede*/
 }
 
 #imagem-grupo-laranja-1{
     border-radius: 50px;
     height: 200px;
+    width: 235px;
 }
 
 .titulo-rpg-top10{
@@ -92,16 +93,16 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 140px;
+    left: 118px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
 #imagem-cyberpunk-1{
     position: absolute;
-    left: 400px;
+    left: 295px; /*distância da imagem ded*/
     top: 342px;
     border-radius: 50px;
-    width: 297.219px;
+    width: 235px;
     height: 200px;
 }
 
@@ -111,16 +112,16 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 465px;
+    left: 334px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
 #imagem-call-1{
     position: absolute;
-    left: 763px;
+    left: 557px; /*distância da imagem cyberpunk*/
     top: 342px;
     border-radius: 50px;
-    width: 297.219px;
+    width: 235px;
     height: 200px;
 }
 
@@ -130,16 +131,16 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 835px;
+    left: 599px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
 #imagem-thrones-1{
     position: absolute;
-    left: 1118px;
+    left: 820px; /*distância da imagem call of cthulhu*/
     top: 342px;
     border-radius: 50px;
-    width: 297.219px;
+    width: 235px;
     height: 200px;
 }
 
@@ -149,6 +150,44 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 1175px;
+    left: 857px; /*título no meio da imagem*/
+    font-weight: 500;
+}
+
+#imagem-witcher-1 {
+    position: absolute;
+    left: 1081px; /*distância da imagem game of thrones*/
+    top: 342px;
+    border-radius: 50px;
+    width: 235px;
+    height: 200px;
+}
+
+.titulo-witcher-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 560px;
+    left: 1142px; /*título no meio da imagem*/
+    font-weight: 500;
+}
+
+#imagem-ring-1{
+    position: absolute;
+    left: 30px; /*distância da parede*/
+    top: 630px;
+    border-radius: 50px;
+    width: 235px;
+    height: 200px;
+}
+
+.titulo-ring-top10{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 850px;
+    left: 85px; /*título no meio da imagem*/
     font-weight: 500;
 }
