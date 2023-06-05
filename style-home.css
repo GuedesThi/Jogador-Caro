@@ -93,7 +93,7 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 118px; /*título no meio da imagem*/
+    left: 116px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
@@ -112,7 +112,7 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 334px; /*título no meio da imagem*/
+    left: 333px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
@@ -131,7 +131,7 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 599px; /*título no meio da imagem*/
+    left: 600px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
@@ -150,7 +150,7 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 560px;
-    left: 857px; /*título no meio da imagem*/
+    left: 855px; /*título no meio da imagem*/
     font-weight: 500;
 }
 
@@ -188,6 +188,57 @@
     font-size: 20px;
     color: #FFFFFF;
     top: 850px;
-    left: 85px; /*título no meio da imagem*/
+    left: 84px; /*título no meio da imagem*/
     font-weight: 500;
+}
+
+.catalogos {
+    background: linear-gradient(to left, black, 80%, red);
+    height: 700px;
+}
+
+.titulo-catalogos{
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 32px;
+    background: linear-gradient(to right, rgba(217, 217, 217, 1), rgba(217, 217, 217, 1));
+    -webkit-background-clip: text; /* Essa propriedade define a área onde o gradiente será aplicado. O valor text especifica que o gradiente será aplicado apenas ao texto do elemento.*/
+    background-clip: text; /*É uma propriedade similar a -webkit-background-clip, mas é a forma padrão de definir a área onde o gradiente será aplicado. Nesse caso, também definimos como text para aplicar o gradiente apenas ao texto.*/
+    -webkit-text-fill-color: transparent; /*Essa propriedade define a cor do texto. No caso do valor transparent, o texto será torna transparente, permitindo que o gradiente aplicado anteriormente seja visível no lugar do texto.*/
+    color: transparent; /*É a propriedade padrão que define a cor do texto. Definir color como transparent tem o mesmo efeito de webkit-text-fill-color: transparent, tornando o texto transparente para exibir o gradiente.*/
+}
+
+#imagem-homem-home{
+    width: 500px;
+    position: absolute;
+    left: 30px;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: 0.5s; /*tempo que leva para o desfoque*/
+}
+
+#imagem-homem-home:hover{ /*ficar desfocado com zoom*/
+    filter: blur(3px);
+    transform: scale(1.1);
+}
+
+.comunidade-texto{
+    position: absolute;
+    left: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    top: 1190px;
+    font-size: 21px;
+    line-height: 26px;
+    text-indent: 40px; /*afastar a primeira palavra do canto*/
+}
+
+.titulo-comunidade-home{
+    position: absolute;
+    left: 187px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    top: 1390px;
+    font-size: 28px; 
 }
